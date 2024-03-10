@@ -1,0 +1,25 @@
+.text-input {
+  display: flex;
+  flex-direction: column;
+  margin: 1.1rem 0;
+}
+
+.text-input input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #282828;
+}
+
+.button {
+  color: #fff;
+  background-color: #A80C15;
+  display: flex;
+  position: relative;
+  padding: 0.8rem 1.1rem;
+  outline: none;
+  border: none;
+}
+
+.button:hover {
+  background-color: #E31C25;
+}

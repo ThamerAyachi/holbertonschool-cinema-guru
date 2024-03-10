@@ -1,0 +1,44 @@
+.auth {
+  min-width: 425px;
+  max-height: 425px;
+  background-color: #fff;
+  position: absolute;
+}
+
+.auth main {
+  color: rgba(0, 0, 0, 0.867);
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+}
+
+.auth-header {
+  text-align: center;
+  position: relative;
+  font-size: 1.3rem;
+}
+
+.auth .button {
+  margin-left: auto;
+  margin-top: 2rem;
+}
+
+.auth body ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.auth body ul li {
+  background-color: #A80C15;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+  height: 3rem;
+}
+
+.auth body ul li.active {
+  background-color: #E31C25;
+}
